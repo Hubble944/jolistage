@@ -3,3 +3,13 @@
 body {
     background-color: wheat;
 }
+
+#main {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.align-left {
+    text-align: left;
+}
