@@ -4,7 +4,7 @@ h1
 }
 p
 {
-    color: red;
+    color: goldenrod;
 }
 
 h1
@@ -14,10 +14,19 @@ h1
 
 p
 {   
-    text-align: left;
+    text-align: center;
 }
 
 p
 {
     font-size: x-large;
 }
+
+h2
+{
+    font-size: xx-large;
+}
+
+
+
+    
