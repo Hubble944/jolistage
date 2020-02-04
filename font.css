@@ -11,3 +11,13 @@ h1
 {
     border: 6px blue solid
 }
+
+p
+{   
+    text-align: left;
+}
+
+p
+{
+    font-size: x-large;
+}
