@@ -22,3 +22,21 @@ Grace à un  site qui s'appelle "tinkercard" j'ai pu modeliser un pot de fleur a
 Et avec "cura" on a pu exporter le fichier pour que l'imprimente 3d le reco
 
 ## Conclusion:
+
+   5 jour chez jolicode m'on fait decouvrir les metiers du developpement.
+   Ce que j'ai retenue c'est que dans l'informatique il n'y a pas de limite (comme pour un site internet par exemple)
+   et que sa crée plein de metier differant comme :
+   -Product owner
+   -integrateur
+   -developpeur
+   -expert
+
+D'ailleur j'ai échangé avec toute ces personnes qui faisait se metier et pour le faire il n'y à même pas besoin de diplome 
+comme certaine personne chez jolicode
+
+
+   
+   
+   
+   
+   
