@@ -14,40 +14,17 @@
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
     {{ end }}
 
-   <style>
-  body {
-    background-color:#6e8388;
-    font-family: "Georgia";
-   
-  }
-  #page {
-    max-width: 1440px;
-    overflow: hidden;
-    margin: 5rem auto;
-    border-radius: 5px;
-    background-color: white;
-    box-sizing: border-box;
-    font-feature-settings: "pnum";
-    font-variant-numeric: proportional-nums;
-    min-height: 2500px;
-    text-rendering: optimizelegibility;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  #top {
-    padding: 5em 8% 8em;
-    padding-bottom: 8em;
-    font-family: "Arial Black";
-  }
-  h1 {
-    color:gray;
-    text-align: center;
-    font-family: "Arial Black";
-    font-size: larger;
-  }
-    
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   
 
-   </style>
+   <style>
+    body {
+      background-color:#6e8388;
+      font-family: "Georgia";
+    }
+  
+     </style>
+      
     
     {{ range .Site.Params.custom_css }}
       <link rel="stylesheet" href="{{ relURL ($.Site.BaseURL) }}{{ . }}">
@@ -76,7 +53,7 @@
 
   <body class="ma0 {{ $.Param "body_classes"  | default "avenir bg-near-white"}}{{ with getenv "HUGO_ENV" }} {{ . }}{{ end }}">
 
-    <div id="page">
+    <div id="page" class="container max-w-screen-lg mx-auto p-6 bg-white rounded-lg shadow-xl">
     {{ block "header" . }}{{ partial "site-header.html" .}}{{ end }}
     <main class="pb7" role="main">
       {{ block "main" . }}{{ end }}
