@@ -1,7 +1,7 @@
 ---
 title: "Rapport de stage"
 date: 2020-02-06T10:13:58+01:00
-draft: true
+draft: true 
 ---
 
 ## Introduction:
@@ -18,6 +18,7 @@ J'ai fait un blog (sur lequelle je vous écris actuellement) qui marche plutôt 
 Séparation contenu / présentation
 
 ### Impression 3D:
-Grace à un  site qui s'appelle 
+Grace à un  site qui s'appelle "tinkercard" j'ai pu modeliser un pot de fleur avec le logo de jolicode et mon nom.
+Et avec "cura" on a pu exporter le fichier pour que l'imprimente 3d le reco
 
 ## Conclusion:
